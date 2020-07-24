@@ -1,0 +1,35 @@
+ng new nome
+..ainda não usado rotas
+..usar o CSS padrão
+
+ng serve para iniciar (localhost:4200)
+
+## arquivos fundamentais.
+package.json -> dependências
+..scripts -> da para adicionar mais recursos
+
+##angular.json -> define propriedades globais entre outros.
+..os assets: representam a parte estáticas da aplicação, imagens e etc.
+..styles: estilos que serão propagados para todos os componentes
+
+##dentro do build, options, index: qual a página básica da aplicação
+.....main: o básico para inicializar a aplicação. Onde serão inseridos todos os componentes.
+
+##node_modules vai onter todas as dependências
+
+##Em SRC o main.ts é chamado pelo angular.json
+..espera receber um módulo raiz do AppModule,
+dentro da pasta app. (ele faz o bootstrap - inicializa)
+
+#app.modulo.ts é lido no main.ts, a partir dele é que será lido o componente pai (app.component.ts) , que é responsável por envelopar todos os componentes. Os outros htmls criados vão ser adicionados no index.html.
+...
+
+Um módulo contém contextos que contém componentes
+Módulo > contexto > componente
+componentes provém o necessário para a aparência
+módulo, contém por exemplo, um módulo para produto, compra, login, etc.
+
+@component
+Selector: é uma diretiva que vai linkar (bind) o nome "selector: 'nome'" com a tag , permitir que seja usado como tag.
+tittle = 'course-manager', aparece na página inicial, dentro do app.component.html entre chaves duplas {{ nome }}, interpolação
+

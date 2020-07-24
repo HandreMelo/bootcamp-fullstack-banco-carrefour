@@ -1,0 +1,24 @@
+criar progeto
+dotnet new console -n DigitalInnovationOne
+
+usar no vs code a paste
+code .
+
+dotnet restore instala os pacotes necessários para rodar a aplicação
+
+dotnet build - também restaura os pacotes, compila e gera os binários com dlls
+
+dotnet build pastaDoProjeto/
+
+dotnet run - roda o app, tem de ser na pasta do .csproj
+dotnet run pastaDoArquivoCSPROJ/
+
+Na pasta .vscode é útil para fazer debug da aplicação (se excluir vai pedir para criar novamente)
+
+Pasta bin, contém os binários: códigos são compilados usando o Roslin que é o compilador do C# cria um código intermediário e depois pra linguagem de máquina
+
+Os arquivos .pdb são os pontos de debug na aplicação
+
+=============
+
+Console.WriteLine($"lalala {i}"); $ é stream interpolation
