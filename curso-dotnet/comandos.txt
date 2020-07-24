@@ -22,3 +22,5 @@ Os arquivos .pdb são os pontos de debug na aplicação
 =============
 
 Console.WriteLine($"lalala {i}"); $ é stream interpolation
+
+https://docs.microsoft.com/pt-br/dotnet/api/system.collections.generic.dictionary-2?view=netcore-3.1
