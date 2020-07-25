@@ -3,11 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-<<<<<<< HEAD:curso-dotnet/revisao-csharp/revisao-csharp.csproj
-    <RootNamespace>revisao_csharp</RootNamespace>
-=======
     <RootNamespace>basico_cli_pilha</RootNamespace>
->>>>>>> novo-dotnet:curso-dotnet/basico-cli-pilha/basico-cli-pilha.csproj
   </PropertyGroup>
 
 </Project>
